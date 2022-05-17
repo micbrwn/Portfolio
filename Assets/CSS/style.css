@@ -1,3 +1,122 @@
-:root {
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: rgb(205, 196, 186);
+}
+.header {
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(130, 154, 130);
+    color: aliceblue;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.color {
+    color: rgb(67, 67, 171);
+    font-weight: 800;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+.header nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/lion-wild-africa-african.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#about {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#about img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     
 }
+
+ section.image {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  section.image:hover {
+    border: 1px solid #777;
+  }
+  
+  section.image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+article h2 {
+    font-size: 35px;
+}
+
+.contact {
+    padding: 75px;
+    clear: both;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 35px;
+}
+
+@media screen and (max-width: 992px) {
+    header {
+      background: rgb(130, 154, 130);
+    }
+  }
+  
+  /* Large smartphones - navbar changes color */
+  @media screen and (max-width: 768px) {
+    nav {
+      background-color: rgb(130, 154, 130);
+    }
+  }
+  
+  /* Small smartphones - image placeholders change color */
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
