@@ -47,7 +47,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/lion-wild-africa-african.jpg");
+    background-image: url("../images/Matrix-BG.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -70,6 +70,10 @@ p {
     float: left;
     width: 180px;
   }
+
+  image:hover {
+    box-shadow: 5 5;
+  }
   
   section.image:hover {
     border: 1px solid #777;
@@ -78,6 +82,10 @@ p {
   section.image img {
     width: 100%;
     height: auto;
+  }
+
+  .image img:hover {
+    box-shadow: inset 100px 0 0 0 #54b3d6
   }
   
   div.desc {
